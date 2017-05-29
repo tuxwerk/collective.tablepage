@@ -558,7 +558,7 @@ msgstr "Konfiguration der Suche. TODO"
 #. Default: "A description to be used in search form"
 #: content/tablepage.py:237
 msgid "help_searchConfig_description"
-msgstr "Eine Beschreibung für das Such-Feld"
+msgstr "Eine Beschreibung für das Suchfeld"
 
 #. Default: "The column on which you want to activate the search.\nOrder matters."
 #: content/tablepage.py:225
