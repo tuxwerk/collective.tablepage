@@ -528,7 +528,7 @@ msgstr "Einen Verweis zu einer externen Website angeben. Wird ignoriert, wenn un
 #. Default: "Criteria of inserting new row.\nChoose if add row at the end of group (append) or before group (prepend)."
 #: content/tablepage.py:175
 msgid "help_insertType"
-msgstr "Kriterien zum anlegen einer neuen Zeile."
+msgstr "Kriterien zum Anlegen einer neuen Zeile."
 
 #. Default: "As an alternative to the \\"URL\\" above you can provide a link to an internal document. This will override any absolute URL you put above."
 #: fields/templates/link.pt:75
