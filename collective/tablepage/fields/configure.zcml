@@ -22,6 +22,13 @@
        for="collective.tablepage.interfaces.ITablePage
 	        zope.publisher.interfaces.browser.IBrowserRequest"
        provides="collective.tablepage.interfaces.IColumnField"
+       factory=".text.RichField"
+       name="Html"
+       />
+   <adapter
+       for="collective.tablepage.interfaces.ITablePage
+	        zope.publisher.interfaces.browser.IBrowserRequest"
+       provides="collective.tablepage.interfaces.IColumnField"
        factory=".email.EmailField"
        name="Email"
        />

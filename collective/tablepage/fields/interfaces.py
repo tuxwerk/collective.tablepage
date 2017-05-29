@@ -9,6 +9,9 @@ class ITextColumnField(IColumnField):
 class ITextAreaColumnField(ITextColumnField):
     """A column field that handle text"""
 
+class IRichColumnField(ITextColumnField):
+    """A column field that handle html text"""
+
 class IEmailColumnField(ITextColumnField):
     """A column field that handle only text in email format"""
 
