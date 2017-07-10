@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.tablepage\n"
-"POT-Creation-Date: 2017-07-10 15:06+0000\n"
+"POT-Creation-Date: 2017-07-10 15:54+0000\n"
 "PO-Revision-Date: 2017-05-29 12:46+0200\n"
 "Last-Translator: Marek Kralewski <mck@tuxwerk.de>\n"
 "Language-Team: \n"
@@ -21,15 +21,15 @@ msgstr ""
 msgid "${count} rows deleted"
 msgstr "${count} Zeilen gelöscht"
 
-#: ./content/tablepage.py:356
+#: ./content/tablepage.py:357
 msgid "... always display"
 msgstr "Immer anzeigen"
 
-#: ./content/tablepage.py:354
+#: ./content/tablepage.py:355
 msgid "... only on page view"
 msgstr "Nur bei Seitenansicht"
 
-#: ./content/tablepage.py:355
+#: ./content/tablepage.py:356
 msgid "... only when editing table"
 msgstr "Nur beim Bearbeiten"
 
@@ -81,11 +81,11 @@ msgstr "Eine neue Zeile unterhalb hinzufügen"
 msgid "Additional features"
 msgstr "Extra Features"
 
-#: ./content/tablepage.py:363
+#: ./content/tablepage.py:364
 msgid "At the beginning"
 msgstr "Am Anfang"
 
-#: ./content/tablepage.py:362
+#: ./content/tablepage.py:363
 msgid "At the end"
 msgstr "Am Ende"
 

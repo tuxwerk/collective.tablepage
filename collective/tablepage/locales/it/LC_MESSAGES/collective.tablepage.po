@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-07-10 15:06+0000\n"
+"POT-Creation-Date: 2017-07-10 15:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: Luca Fabbri <keul@redturtle.it>\n"
 "Language-Team: RedTurtle Technology <sviluppoplone@redturtle.it>\n"
@@ -20,15 +20,15 @@ msgstr ""
 msgid "${count} rows deleted"
 msgstr "${count} righe eliminate"
 
-#: ./content/tablepage.py:356
+#: ./content/tablepage.py:357
 msgid "... always display"
 msgstr "... mostra sempre"
 
-#: ./content/tablepage.py:354
+#: ./content/tablepage.py:355
 msgid "... only on page view"
 msgstr "... solo nella vista della pagina"
 
-#: ./content/tablepage.py:355
+#: ./content/tablepage.py:356
 msgid "... only when editing table"
 msgstr "... solo in modifica della tabella"
 
@@ -80,11 +80,11 @@ msgstr "Aggiungi una nuova riga sotto questa"
 msgid "Additional features"
 msgstr "Funzionalità aggiuntive"
 
-#: ./content/tablepage.py:363
+#: ./content/tablepage.py:364
 msgid "At the beginning"
 msgstr "All'inizio"
 
-#: ./content/tablepage.py:362
+#: ./content/tablepage.py:363
 msgid "At the end"
 msgstr "Alla fine"
 
@@ -694,8 +694,9 @@ msgstr "Altre opzioni che puoi attivare sulla colonna"
 msgid "pagecolumn_validation_error_duplicated_id"
 msgstr "L'id \"${col_name}\" è duplicato"
 
-#. Default: "Invalid value: \"${col_name}\". \"ID\" must not contains special characters"
+#. Default: "Invalid value: \"${col_name}\". \"ID\" must not contain special characters"
 #: ./content/tablepage.py:327
+#, fuzzy
 msgid "pagecolumn_validation_error_id_format"
 msgstr "Valore non valido: \"${col_name}\". \"Id Colonna\" non deve contenere caratteri speciali"
 

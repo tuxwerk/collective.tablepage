@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.tablepage\n"
-"POT-Creation-Date: 2017-07-10 15:06+0000\n"
+"POT-Creation-Date: 2017-07-10 15:54+0000\n"
 "PO-Revision-Date: 2015-05-26 12:46+0200\n"
 "Last-Translator: Petri Savolainen <petri.savolainen@iki.fi>\n"
 "Language-Team: \n"
@@ -21,15 +21,15 @@ msgstr ""
 msgid "${count} rows deleted"
 msgstr "${count} rivi(ä) poistettu"
 
-#: ./content/tablepage.py:356
+#: ./content/tablepage.py:357
 msgid "... always display"
 msgstr "näytä aina"
 
-#: ./content/tablepage.py:354
+#: ./content/tablepage.py:355
 msgid "... only on page view"
 msgstr "vain esitettäessä"
 
-#: ./content/tablepage.py:355
+#: ./content/tablepage.py:356
 msgid "... only when editing table"
 msgstr "vain muokattaessa"
 
@@ -81,11 +81,11 @@ msgstr "Lisää rivi alapuolelle"
 msgid "Additional features"
 msgstr "Lisätoimintoja"
 
-#: ./content/tablepage.py:363
+#: ./content/tablepage.py:364
 msgid "At the beginning"
 msgstr "Alussa"
 
-#: ./content/tablepage.py:362
+#: ./content/tablepage.py:363
 msgid "At the end"
 msgstr "Lopussa"
 
@@ -678,8 +678,9 @@ msgstr "Muita sarakekohtaisia asetuksia"
 msgid "pagecolumn_validation_error_duplicated_id"
 msgstr "Tunniste \"${col_name}\" on jo käytetty"
 
-#. Default: "Invalid value: \"${col_name}\". \"ID\" must not contains special characters"
+#. Default: "Invalid value: \"${col_name}\". \"ID\" must not contain special characters"
 #: ./content/tablepage.py:327
+#, fuzzy
 msgid "pagecolumn_validation_error_id_format"
 msgstr "Sarake \"${col_name}\" ei kelpaa. Huomaa että sarakkeen nimi ei saa sisältää erikoismerkkejä."
 

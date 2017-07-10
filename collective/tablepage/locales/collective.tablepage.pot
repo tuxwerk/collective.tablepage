@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-07-10 15:06+0000\n"
+"POT-Creation-Date: 2017-07-10 15:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,15 +19,15 @@ msgstr ""
 msgid "${count} rows deleted"
 msgstr ""
 
-#: ./content/tablepage.py:356
+#: ./content/tablepage.py:357
 msgid "... always display"
 msgstr ""
 
-#: ./content/tablepage.py:354
+#: ./content/tablepage.py:355
 msgid "... only on page view"
 msgstr ""
 
-#: ./content/tablepage.py:355
+#: ./content/tablepage.py:356
 msgid "... only when editing table"
 msgstr ""
 
@@ -79,11 +79,11 @@ msgstr ""
 msgid "Additional features"
 msgstr ""
 
-#: ./content/tablepage.py:363
+#: ./content/tablepage.py:364
 msgid "At the beginning"
 msgstr ""
 
-#: ./content/tablepage.py:362
+#: ./content/tablepage.py:363
 msgid "At the end"
 msgstr ""
 
@@ -667,17 +667,17 @@ msgstr ""
 msgid "options_column_description"
 msgstr ""
 
-#. Default: "Id \"${col_name}\" is duplicated"
+#. Default: "ID \"${col_name}\" is duplicated"
 #: ./content/tablepage.py:321
 msgid "pagecolumn_validation_error_duplicated_id"
 msgstr ""
 
-#. Default: "Invalid value: \"${col_name}\". \"Column Id\" must not contains special characters"
+#. Default: "Invalid value: \"${col_name}\". \"ID\" must not contain special characters"
 #: ./content/tablepage.py:327
 msgid "pagecolumn_validation_error_id_format"
 msgstr ""
 
-#. Default: "A reserved value has been used for \"id\""
+#. Default: "Invalid value: \"${col_name}\". A reserved value has been used for \"ID\""
 #: ./content/tablepage.py:331
 msgid "pagecolumn_validation_error_id_invalid"
 msgstr ""
