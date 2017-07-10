@@ -2,7 +2,7 @@
 
 PROJECTNAME = 'collective.tablepage'
 RESERVED_IDS = ('__creator__', '__label__', '__cache__', 'id', '__uuid__',
-                'getObjPositionInParent', 'SearchableText')
+                'getObjPositionInParent', 'SearchableText', '__tablerowstyle__')
 
 ADD_PERMISSIONS = {
     'TablePage': 'collective.tablepage: Add TablePage',
