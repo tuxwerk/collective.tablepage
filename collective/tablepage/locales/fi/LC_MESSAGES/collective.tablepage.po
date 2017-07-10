@@ -673,20 +673,20 @@ msgstr "Käyttäjätunnuksellasi ei ole oikeuksia käyttää valittua tiedostoje
 msgid "options_column_description"
 msgstr "Muita sarakekohtaisia asetuksia"
 
-#. Default: "Id \"${col_name}\" is duplicated"
+#. Default: "ID \"${col_name}\" is duplicated"
 #: ./content/tablepage.py:321
 msgid "pagecolumn_validation_error_duplicated_id"
 msgstr "Tunniste \"${col_name}\" on jo käytetty"
 
-#. Default: "Invalid value: \"${col_name}\". \"Column Id\" must not contains special characters"
+#. Default: "Invalid value: \"${col_name}\". \"ID\" must not contains special characters"
 #: ./content/tablepage.py:327
 msgid "pagecolumn_validation_error_id_format"
 msgstr "Sarake \"${col_name}\" ei kelpaa. Huomaa että sarakkeen nimi ei saa sisältää erikoismerkkejä."
 
-#. Default: "A reserved value has been used for \"id\""
+#. Default: "Invalid value: \"${col_name}\". A reserved value has been used for \"ID\""
 #: ./content/tablepage.py:331
 msgid "pagecolumn_validation_error_id_invalid"
-msgstr "Käytetty tunnisteen arvo on varattu"
+msgstr "Sarake \"${col_name}\" ei kelpaa. Käytetty tunnisteen arvo on varattu"
 
 #. Default: "$count rows has been updated"
 #: ./search/view.py:35

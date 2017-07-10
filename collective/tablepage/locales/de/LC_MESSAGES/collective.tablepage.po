@@ -107,7 +107,7 @@ msgstr "Spalte"
 
 #: ./content/tablepage.py:66
 msgid "Column configuration"
-msgstr "Konfiguration der Spalte"
+msgstr "Konfiguration"
 
 #: ./content/tablepage.py:61
 msgid "Column description"
@@ -115,11 +115,11 @@ msgstr "Beschreibung"
 
 #: ./content/tablepage.py:59
 msgid "Column id"
-msgstr "Eindeutige ID"
+msgstr "ID"
 
 #: ./content/tablepage.py:60
 msgid "Column label"
-msgstr "Spalten Überschrift"
+msgstr "Überschrift"
 
 #: ./content/tablepage.py:53
 msgid "Columns"
@@ -671,20 +671,20 @@ msgstr "Sie haben keine Leserechte für den Datei-Ordner und können keine Anhä
 msgid "options_column_description"
 msgstr "Weitere Optionen"
 
-#. Default: "Id \"${col_name}\" is duplicated"
+#. Default: "ID \"${col_name}\" is duplicated"
 #: ./content/tablepage.py:321
 msgid "pagecolumn_validation_error_duplicated_id"
 msgstr "ID \"${col_name}\" ist bereits vergeben"
 
-#. Default: "Invalid value: \"${col_name}\". \"Column Id\" must not contains special characters"
+#. Default: "Invalid value: \"${col_name}\". \"ID\" must not contain special characters"
 #: ./content/tablepage.py:327
 msgid "pagecolumn_validation_error_id_format"
 msgstr "Ungültige ID '${col_name}'. Bitte verwenden Sie keine Sonderzeichen."
 
-#. Default: "A reserved value has been used for \"id\""
+#. Default: "Invalid value: \"${col_name}\". A reserved value has been used for \"ID\""
 #: ./content/tablepage.py:331
 msgid "pagecolumn_validation_error_id_invalid"
-msgstr "ID enthält einen reservierten Bezeichner."
+msgstr "Ungültige ID '${col_name}'. ID enthält einen reservierten Bezeichner."
 
 #. Default: "$count rows has been updated"
 #: ./search/view.py:35

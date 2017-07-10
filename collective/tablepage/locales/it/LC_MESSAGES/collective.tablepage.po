@@ -689,20 +689,20 @@ msgstr "Sembra che tu non abbia i permessi per accedere al repositori dei file. 
 msgid "options_column_description"
 msgstr "Altre opzioni che puoi attivare sulla colonna"
 
-#. Default: "Id \"${col_name}\" is duplicated"
+#. Default: "ID \"${col_name}\" is duplicated"
 #: ./content/tablepage.py:321
 msgid "pagecolumn_validation_error_duplicated_id"
 msgstr "L'id \"${col_name}\" è duplicato"
 
-#. Default: "Invalid value: \"${col_name}\". \"Column Id\" must not contains special characters"
+#. Default: "Invalid value: \"${col_name}\". \"ID\" must not contains special characters"
 #: ./content/tablepage.py:327
 msgid "pagecolumn_validation_error_id_format"
 msgstr "Valore non valido: \"${col_name}\". \"Id Colonna\" non deve contenere caratteri speciali"
 
-#. Default: "A reserved value has been used for \"id\""
+#. Default: "Invalid value: \"${col_name}\". A reserved value has been used for \"ID\""
 #: ./content/tablepage.py:331
 msgid "pagecolumn_validation_error_id_invalid"
-msgstr "Una valore riservato è stato utilizzato per \"id\""
+msgstr "Valore non valido: \"${col_name}\". Una valore riservato è stato utilizzato per \"ID\""
 
 #. Default: "$count rows has been updated"
 #: ./search/view.py:35
