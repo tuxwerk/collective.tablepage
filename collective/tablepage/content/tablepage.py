@@ -320,13 +320,13 @@ class TablePage(base.ATCTContent):
                     ids.index(id)
                     return _('pagecolumn_validation_error_duplicated_id',
                              default=u'Id "${col_name}" is duplicated',
-                             mapping={'col_name': id})
+                             mapping={'col_name': id.decode('utf_8')})
                 except ValueError:
                         ids.append(id)
                 if not re.match(r"^[a-zA-Z][a-zA-Z0-9.\-_]*$", id):
                     return _('pagecolumn_validation_error_id_format',
                              default=u'Invalid value: "${col_name}". "Column Id" must not contains special characters',
-                             mapping={'col_name': id})
+                             mapping={'col_name': id.decode('utf_8')})
                 if id in config.RESERVED_IDS:
                     return _('pagecolumn_validation_error_id_invalid',
                              default=u'A reserved value has been used for "id"')
