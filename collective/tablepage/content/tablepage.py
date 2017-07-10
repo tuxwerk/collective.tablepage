@@ -96,8 +96,8 @@ TablePageSchema = ATDocumentSchema.copy() + atapi.Schema((
               default=["listing"],
               widget=atapi.MultiSelectionWidget(
                         label=_(u'CSS classes'),
-                        description=_(u'CSS classes to be applied to the table.\n'
-                                      u'This list is taken from available TinyMCE style for tables.'),
+                        description=_(u'help_css_classes',
+                                      default=u"CSS classes to be applied to the table.\nThis list is taken from available TinyMCE style for tables."),
                         format="checkbox",
                         visible={'view': 'invisible', 'edit': 'visible'},
                         condition="object/getCSSClassesVocabulary",

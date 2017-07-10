@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"POT-Creation-Date: 2017-07-10 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: Luca Fabbri <keul@redturtle.it>\n"
 "Language-Team: RedTurtle Technology <sviluppoplone@redturtle.it>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Is-Fallback-For: it-ch it-it\n"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:295
+#: ./browser/view.py:317
 msgid "${count} rows deleted"
 msgstr "${count} righe eliminate"
 
@@ -40,6 +40,7 @@ msgstr "Una pagina con una tabella modificabile"
 msgid "Add"
 msgstr "Aggiungi"
 
+#: ./configure.zcml:35
 msgid "Add a new content type, that contains an editable table"
 msgstr "Aggiunge un nuovo tipo di contenuto, che contiene una tabella modificabile"
 
@@ -59,19 +60,19 @@ msgstr "Aggiungi nuova etichetta sopra"
 msgid "Add new label above that row"
 msgstr "Aggiungi una nuova etichetta sopra questa riga"
 
-#: ./browser/templates/view-table.pt:155
+#: ./browser/templates/view-table.pt:158
 msgid "Add new row"
 msgstr "Aggiungi una nuova riga"
 
-#: ./browser/templates/view-table.pt:159
+#: ./browser/templates/view-table.pt:162
 msgid "Add new row above this"
 msgstr "Aggiunga nuova riga sopra"
 
-#: ./browser/templates/view-table.pt:147
+#: ./browser/templates/view-table.pt:150
 msgid "Add new row below"
 msgstr "Aggiunga nuova riga sotto"
 
-#: ./browser/templates/view-table.pt:143
+#: ./browser/templates/view-table.pt:146
 msgid "Add new row below this"
 msgstr "Aggiungi una nuova riga sotto questa"
 
@@ -97,7 +98,7 @@ msgstr "Torna alla modifica della tabella"
 
 #: ./content/tablepage.py:98
 msgid "CSS classes"
-msgstr "Classi CSS"
+msgstr ""
 
 #: ./content/tablepage.py:224
 msgid "Column"
@@ -148,23 +149,23 @@ msgstr "Elimina le righe selezionate"
 msgid "Delete selection"
 msgstr "Cancella selezione"
 
-#: ./browser/templates/multiple-tables.pt:87
-#: ./browser/templates/view-table.pt:84
+#: ./browser/templates/multiple-tables.pt:90
+#: ./browser/templates/view-table.pt:87
 msgid "Download as CSV"
 msgstr "Scarica come CSV"
 
-#: ./browser/templates/multiple-tables.pt:81
+#: ./browser/templates/multiple-tables.pt:82
 #: ./browser/templates/view-table.pt:76
 msgid "Download data in CSV format"
 msgstr "Scarica i dati in formato CSV"
 
 #: ./browser/templates/edit-label.pt:17
-#: ./browser/templates/view-table.pt:185
+#: ./browser/templates/view-table.pt:188
 msgid "Edit label"
 msgstr "Modifica etichetta"
 
 #: ./browser/templates/edit-record.pt:38
-#: ./browser/templates/view-table.pt:177
+#: ./browser/templates/view-table.pt:180
 msgid "Edit row"
 msgstr "Modifica riga"
 
@@ -196,6 +197,10 @@ msgstr "Filtra risultati"
 #: ./search/templates/datetime_index.pt:16
 msgid "From"
 msgstr "Dal"
+
+#: ./fields/text.py:58
+msgid "Html"
+msgstr ""
 
 #: ./fields/templates/link.pt:73
 msgid "Internal link"
@@ -234,6 +239,14 @@ msgstr "Cerca record duplicati"
 msgid "Max number of rows"
 msgstr "Massimo numero di righe"
 
+#: ./profiles.zcml:12
+msgid "Migrate to 1100"
+msgstr ""
+
+#: ./profiles.zcml:18
+msgid "Migrate to 1210"
+msgstr ""
+
 msgid "Monetary"
 msgstr "Monetario"
 
@@ -245,14 +258,15 @@ msgstr "Muovi dopo"
 msgid "Move before"
 msgstr "Muovi prima"
 
-#: ./browser/templates/view-table.pt:218
+#: ./browser/templates/view-table.pt:221
 msgid "Move row down"
 msgstr "Muovi riga giù"
 
-#: ./browser/templates/view-table.pt:210
+#: ./browser/templates/view-table.pt:213
 msgid "Move row up"
 msgstr "Muovi riga su"
 
+#: ./browser/configure.zcml:93
 msgid "Multiple tables"
 msgstr "Tabelle multiple"
 
@@ -264,13 +278,14 @@ msgstr "Nuova etichetta"
 msgid "New row"
 msgstr "Nuova riga"
 
-#: ./browser/templates/view-table.pt:232
+#: ./browser/templates/view-table.pt:235
 msgid "No rows"
 msgstr "Nessuna riga"
 
 msgid "Numeric"
 msgstr "Numerico"
 
+#: ./configure.zcml:35
 #: ./profiles/default/types/TablePage.xml
 msgid "Page with Table"
 msgstr "Pagina con Tabella"
@@ -283,7 +298,7 @@ msgstr "Prego, inserisci un numero in un formato adatto, per esempio: 1234.56"
 msgid "Provide label"
 msgstr "Fornisci un'etichetta"
 
-#: ./browser/templates/view-table.pt:92
+#: ./browser/templates/view-table.pt:95
 msgid "Refresh catalog"
 msgstr "Aggiorna catalogo"
 
@@ -291,36 +306,36 @@ msgstr "Aggiorna catalogo"
 msgid "Remove"
 msgstr "Rimuovi"
 
-#: ./browser/templates/view-table.pt:201
+#: ./browser/templates/view-table.pt:204
 msgid "Remove row"
 msgstr "Elimina riga"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:221
+#: ./browser/view.py:243
 msgid "Row added"
 msgstr "Riga aggiunta"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:213
+#: ./browser/view.py:235
 msgid "Row changed"
 msgstr "Riga cambiata"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:291
+#: ./browser/view.py:313
 msgid "Row deleted"
 msgstr "Riga eliminata"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:334
+#: ./browser/view.py:356
 msgid "Row has been moved"
 msgstr "La riga è stata spostata"
 
-#: ./browser/view.py:84
+#: ./browser/view.py:106
 msgid "Row has been saved"
 msgstr "La riga è stata salvata"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:338
+#: ./browser/view.py:360
 msgid "Row moved"
 msgstr "Riga mossa"
 
@@ -332,7 +347,7 @@ msgstr "Cerca nella tabella"
 msgid "Search configuration"
 msgstr "Configurazioni della ricerca"
 
-#: ./search/search_table.py:68
+#: ./search/search_table.py:69
 #: ./vocabularies.py:58
 msgid "Search in text"
 msgstr "Cerca nel testo"
@@ -360,6 +375,7 @@ msgstr "Mostra link per scaricati i dati"
 msgid "Show headers"
 msgstr "Mostra intestazioni"
 
+#: ./browser/configure.zcml:93
 msgid "Show stored data in multiple tables"
 msgstr "Mostra i dati salvati usando varie tabelle"
 
@@ -381,7 +397,7 @@ msgstr "Didascalia tabella"
 msgid "Text"
 msgstr "Testo"
 
-#: ./browser/templates/view-table.pt:88
+#: ./browser/templates/view-table.pt:91
 msgid "This will update cache of every rows while update data saved in catalog"
 msgstr "Questo aggiornerà la cache di tutte le righe e i dati salvati nel catalogo"
 
@@ -395,6 +411,10 @@ msgstr "Tipo di dato"
 
 #: ./fields/templates/link.pt:52
 msgid "URL"
+msgstr ""
+
+#: ./configure.zcml:50
+msgid "Uninstall collective.tablepage"
 msgstr ""
 
 #: ./browser/templates/upload-csv.pt:59
@@ -440,6 +460,10 @@ msgid "bad_configured_search_cols"
 msgstr ""
 "Ci sono colonne ($cols) definite come ricercabili ma nessun indice con lo stesso nome è stato trovato nel tool tablepage_catalog.\n"
 "Il form di ricerca non le utilizzerà."
+
+#: ./configure.zcml:50
+msgid "collective.tablepage: uninstall"
+msgstr ""
 
 #. Default: "${count} rows added"
 #: ./browser/updownload.py:168
@@ -531,6 +555,11 @@ msgstr ""
 "Inserire il massimo numero di righe da visualizzare per una singola pagina.\n"
 "Quando questo limite è raggiunto verrà mostrata una sezione per la navigazione della paginazione.\n"
 "Usa 0 per disabilitare la paginazione (NON consigliato per tabelle molto grandi o in presenza di colonne molto complesse)."
+
+#. Default: "CSS classes to be applied to the table.\nThis list is taken from available TinyMCE style for tables."
+#: ./content/tablepage.py:99
+msgid "help_css_classes"
+msgstr ""
 
 #. Default: "Display a download link for data inside the table in CSV format"
 #: ./content/tablepage.py:150
@@ -723,4 +752,3 @@ msgstr "Riga $line, cella $cell: non posso importare i dati per una controllo di
 #: ./browser/updownload.py:128
 msgid "warn_invalid_row"
 msgstr "La riga $line non può essere importata perché mancano dati obbligatori"
-

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-10-14 12:30+0000\n"
+"POT-Creation-Date: 2017-07-10 10:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Domain: collective.tablepage\n"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:295
+#: ./browser/view.py:317
 msgid "${count} rows deleted"
 msgstr ""
 
@@ -39,6 +39,7 @@ msgstr ""
 msgid "Add"
 msgstr ""
 
+#: ./configure.zcml:35
 msgid "Add a new content type, that contains an editable table"
 msgstr ""
 
@@ -58,19 +59,19 @@ msgstr ""
 msgid "Add new label above that row"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:155
+#: ./browser/templates/view-table.pt:158
 msgid "Add new row"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:159
+#: ./browser/templates/view-table.pt:162
 msgid "Add new row above this"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:147
+#: ./browser/templates/view-table.pt:150
 msgid "Add new row below"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:143
+#: ./browser/templates/view-table.pt:146
 msgid "Add new row below this"
 msgstr ""
 
@@ -96,11 +97,6 @@ msgstr ""
 
 #: ./content/tablepage.py:98
 msgid "CSS classes"
-msgstr ""
-
-#: ./content/tablepage.py:99
-msgid "CSS classes to be applied to the table.
-This list is taken from available TinyMCE style for tables."
 msgstr ""
 
 #: ./content/tablepage.py:224
@@ -152,23 +148,23 @@ msgstr ""
 msgid "Delete selection"
 msgstr ""
 
-#: ./browser/templates/multiple-tables.pt:87
-#: ./browser/templates/view-table.pt:84
+#: ./browser/templates/multiple-tables.pt:90
+#: ./browser/templates/view-table.pt:87
 msgid "Download as CSV"
 msgstr ""
 
-#: ./browser/templates/multiple-tables.pt:81
+#: ./browser/templates/multiple-tables.pt:82
 #: ./browser/templates/view-table.pt:76
 msgid "Download data in CSV format"
 msgstr ""
 
 #: ./browser/templates/edit-label.pt:17
-#: ./browser/templates/view-table.pt:185
+#: ./browser/templates/view-table.pt:188
 msgid "Edit label"
 msgstr ""
 
 #: ./browser/templates/edit-record.pt:38
-#: ./browser/templates/view-table.pt:177
+#: ./browser/templates/view-table.pt:180
 msgid "Edit row"
 msgstr ""
 
@@ -199,6 +195,10 @@ msgstr ""
 
 #: ./search/templates/datetime_index.pt:16
 msgid "From"
+msgstr ""
+
+#: ./fields/text.py:58
+msgid "Html"
 msgstr ""
 
 #: ./fields/templates/link.pt:73
@@ -238,6 +238,14 @@ msgstr ""
 msgid "Max number of rows"
 msgstr ""
 
+#: ./profiles.zcml:12
+msgid "Migrate to 1100"
+msgstr ""
+
+#: ./profiles.zcml:18
+msgid "Migrate to 1210"
+msgstr ""
+
 msgid "Monetary"
 msgstr ""
 
@@ -249,14 +257,15 @@ msgstr ""
 msgid "Move before"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:218
+#: ./browser/templates/view-table.pt:221
 msgid "Move row down"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:210
+#: ./browser/templates/view-table.pt:213
 msgid "Move row up"
 msgstr ""
 
+#: ./browser/configure.zcml:93
 msgid "Multiple tables"
 msgstr ""
 
@@ -268,13 +277,14 @@ msgstr ""
 msgid "New row"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:232
+#: ./browser/templates/view-table.pt:235
 msgid "No rows"
 msgstr ""
 
 msgid "Numeric"
 msgstr ""
 
+#: ./configure.zcml:35
 #: ./profiles/default/types/TablePage.xml
 msgid "Page with Table"
 msgstr ""
@@ -287,7 +297,7 @@ msgstr ""
 msgid "Provide label"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:92
+#: ./browser/templates/view-table.pt:95
 msgid "Refresh catalog"
 msgstr ""
 
@@ -295,36 +305,36 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:201
+#: ./browser/templates/view-table.pt:204
 msgid "Remove row"
 msgstr ""
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:221
+#: ./browser/view.py:243
 msgid "Row added"
 msgstr ""
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:213
+#: ./browser/view.py:235
 msgid "Row changed"
 msgstr ""
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:291
+#: ./browser/view.py:313
 msgid "Row deleted"
 msgstr ""
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:334
+#: ./browser/view.py:356
 msgid "Row has been moved"
 msgstr ""
 
-#: ./browser/view.py:84
+#: ./browser/view.py:106
 msgid "Row has been saved"
 msgstr ""
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:338
+#: ./browser/view.py:360
 msgid "Row moved"
 msgstr ""
 
@@ -336,7 +346,7 @@ msgstr ""
 msgid "Search configuration"
 msgstr ""
 
-#: ./search/search_table.py:68
+#: ./search/search_table.py:69
 #: ./vocabularies.py:58
 msgid "Search in text"
 msgstr ""
@@ -364,6 +374,7 @@ msgstr ""
 msgid "Show headers"
 msgstr ""
 
+#: ./browser/configure.zcml:93
 msgid "Show stored data in multiple tables"
 msgstr ""
 
@@ -385,7 +396,7 @@ msgstr ""
 msgid "Text"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:88
+#: ./browser/templates/view-table.pt:91
 msgid "This will update cache of every rows while update data saved in catalog"
 msgstr ""
 
@@ -399,6 +410,10 @@ msgstr ""
 
 #: ./fields/templates/link.pt:52
 msgid "URL"
+msgstr ""
+
+#: ./configure.zcml:50
+msgid "Uninstall collective.tablepage"
 msgstr ""
 
 #: ./browser/templates/upload-csv.pt:59
@@ -438,6 +453,10 @@ msgstr ""
 #. Default: "There are columns ($cols) defined as searchable but no indexes with same has been found in the tablepage_catalog tool.\nSearch form will use them."
 #: ./events.py:22
 msgid "bad_configured_search_cols"
+msgstr ""
+
+#: ./configure.zcml:50
+msgid "collective.tablepage: uninstall"
 msgstr ""
 
 #. Default: "${count} rows added"
@@ -520,6 +539,11 @@ msgstr ""
 #. Default: "Insert the maximum number of rows to be displayed in a single page.\nWhen this limit is reached a batching navigation section will be displayed.\nUse 0 to disable batching (NOT suggested on very large tables or extremly complex column types)."
 #: ./content/tablepage.py:189
 msgid "help_batchSize"
+msgstr ""
+
+#. Default: "CSS classes to be applied to the table.\nThis list is taken from available TinyMCE style for tables."
+#: ./content/tablepage.py:99
+msgid "help_css_classes"
 msgstr ""
 
 #. Default: "Display a download link for data inside the table in CSV format"
@@ -703,4 +727,3 @@ msgstr ""
 #: ./browser/updownload.py:128
 msgid "warn_invalid_row"
 msgstr ""
-

@@ -7,6 +7,7 @@ from collective.tablepage.fields.interfaces import ITextAreaColumnField
 from collective.tablepage.fields.interfaces import IRichColumnField
 from collective.tablepage.fields.base import BaseField
 from Products.Archetypes.atapi import RichWidget
+from collective.tablepage import tablepageMessageFactory as _
 
 try:
     from zope.browserpage.viewpagetemplatefile import ViewPageTemplateFile
@@ -54,7 +55,7 @@ class RichField(BaseField):
         self.rows = 5
         self.widget = RichWidget(
             description='',
-            label='',
+            label=_('Html'),
             filter_buttons=('tablecontrols', 'code', 'fullscreen', 'attribs', ),
             rows=25,
             allow_file_upload=False

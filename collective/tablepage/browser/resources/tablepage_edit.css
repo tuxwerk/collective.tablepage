@@ -144,3 +144,30 @@ table.helpEdit {
 	width: auto !important;
 }
 */
+#datagridwidget-table-pageColumns thead th {
+  vertical-align: top;
+}
+#datagridwidget-table-pageColumns thead th > span {
+  font-weight: bold;
+  line-height: 1.25em;
+  display: inline-block;
+  font-size: 90%;
+}
+#datagridwidget-table-pageColumns thead th span.formHelp {
+  font-weight: normal;
+  font-size: 80%;
+}
+#datagridwidget-table-pageColumns thead th span.fieldRequired {
+  display: inline-block;
+  width: 0px;
+  overflow: hidden;
+}
+#datagridwidget-table-pageColumns tbody td.datagridwidget-cell {
+  padding: 0 10px 0 0;
+}
+#datagridwidget-table-pageColumns tbody td.datagridwidget-cell .dataGridMultiSelectCell input {
+  float: left;
+}
+#datagridwidget-table-pageColumns tbody td.datagridwidget-cell .dataGridMultiSelectCell label {
+  font-weight: normal;
+}
