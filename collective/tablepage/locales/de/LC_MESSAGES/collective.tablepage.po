@@ -189,7 +189,7 @@ msgstr "Dateien"
 
 #: ./browser/templates/edit-record.pt:43
 msgid "Fill data of this table's row"
-msgstr "Daten deser Zeile befüllen"
+msgstr "Daten dieser Zeile befüllen"
 
 #: ./search/templates/search.pt:32
 msgid "Filter results"
