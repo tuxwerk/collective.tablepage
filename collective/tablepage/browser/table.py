@@ -204,6 +204,7 @@ class TableViewView(BrowserView):
 
             # every row data is a dict with the UID, and a list of data for single cells
             row = {'UID': record.get('__uuid__') or record.UID,
+                   '__tablerowstyle__': record.get('__tablerowstyle__'),
                    'cols': []}
             write_attempt = False
             for conf in context.getPageColumns():

@@ -50,7 +50,24 @@
             <input type="hidden" name="b_start:int" value=""
                    tal:condition="request/b_start|nothing"
                    tal:attributes="value request/b_start" />
-            
+
+	    <div class="field tablePageField"
+		 tal:define="selected python:view.data.get('__tablerowstyle__')">
+	      <label for="__tablerowstyle__" i18n:translate="">Table row style</label>
+	      <div class="formHelp"></div>
+	      <select id="__tablerowstyle__" name="__tablerowstyle__">
+		<option value=""></option>
+		<tal:loop repeat="tablerowstyle view/tablerowstyles">
+		  <option value=""
+			  tal:attributes="value python:tablerowstyle[0];
+					  selected python:tablerowstyle[0] == selected and 'selected'"
+			  tal:content="python:tablerowstyle[1]"></option>
+		</tal:loop>
+	      </select>
+	    </div>
+
+	    <hr/>
+	    
             <div class="field tablePageField"
                  tal:attributes="class python:field.configuration['id'] in view.errors.keys() and 'field tablePageField error' or default"
                  tal:repeat="field view/fields">

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-07-10 10:17+0000\n"
+"POT-Creation-Date: 2017-07-10 15:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: Luca Fabbri <keul@redturtle.it>\n"
 "Language-Team: RedTurtle Technology <sviluppoplone@redturtle.it>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Is-Fallback-For: it-ch it-it\n"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:317
+#: ./browser/view.py:332
 msgid "${count} rows deleted"
 msgstr "${count} righe eliminate"
 
@@ -60,19 +60,19 @@ msgstr "Aggiungi nuova etichetta sopra"
 msgid "Add new label above that row"
 msgstr "Aggiungi una nuova etichetta sopra questa riga"
 
-#: ./browser/templates/view-table.pt:158
+#: ./browser/templates/view-table.pt:160
 msgid "Add new row"
 msgstr "Aggiungi una nuova riga"
 
-#: ./browser/templates/view-table.pt:162
+#: ./browser/templates/view-table.pt:164
 msgid "Add new row above this"
 msgstr "Aggiunga nuova riga sopra"
 
-#: ./browser/templates/view-table.pt:150
+#: ./browser/templates/view-table.pt:152
 msgid "Add new row below"
 msgstr "Aggiunga nuova riga sotto"
 
-#: ./browser/templates/view-table.pt:146
+#: ./browser/templates/view-table.pt:148
 msgid "Add new row below this"
 msgstr "Aggiungi una nuova riga sotto questa"
 
@@ -160,12 +160,12 @@ msgid "Download data in CSV format"
 msgstr "Scarica i dati in formato CSV"
 
 #: ./browser/templates/edit-label.pt:17
-#: ./browser/templates/view-table.pt:188
+#: ./browser/templates/view-table.pt:190
 msgid "Edit label"
 msgstr "Modifica etichetta"
 
 #: ./browser/templates/edit-record.pt:38
-#: ./browser/templates/view-table.pt:180
+#: ./browser/templates/view-table.pt:182
 msgid "Edit row"
 msgstr "Modifica riga"
 
@@ -258,11 +258,11 @@ msgstr "Muovi dopo"
 msgid "Move before"
 msgstr "Muovi prima"
 
-#: ./browser/templates/view-table.pt:221
+#: ./browser/templates/view-table.pt:223
 msgid "Move row down"
 msgstr "Muovi riga giù"
 
-#: ./browser/templates/view-table.pt:213
+#: ./browser/templates/view-table.pt:215
 msgid "Move row up"
 msgstr "Muovi riga su"
 
@@ -278,7 +278,7 @@ msgstr "Nuova etichetta"
 msgid "New row"
 msgstr "Nuova riga"
 
-#: ./browser/templates/view-table.pt:235
+#: ./browser/templates/view-table.pt:237
 msgid "No rows"
 msgstr "Nessuna riga"
 
@@ -306,36 +306,36 @@ msgstr "Aggiorna catalogo"
 msgid "Remove"
 msgstr "Rimuovi"
 
-#: ./browser/templates/view-table.pt:204
+#: ./browser/templates/view-table.pt:206
 msgid "Remove row"
 msgstr "Elimina riga"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:243
+#: ./browser/view.py:258
 msgid "Row added"
 msgstr "Riga aggiunta"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:235
+#: ./browser/view.py:250
 msgid "Row changed"
 msgstr "Riga cambiata"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:313
+#: ./browser/view.py:328
 msgid "Row deleted"
 msgstr "Riga eliminata"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:356
+#: ./browser/view.py:371
 msgid "Row has been moved"
 msgstr "La riga è stata spostata"
 
-#: ./browser/view.py:106
+#: ./browser/view.py:110
 msgid "Row has been saved"
 msgstr "La riga è stata salvata"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:360
+#: ./browser/view.py:375
 msgid "Row moved"
 msgstr "Riga mossa"
 
@@ -393,6 +393,10 @@ msgstr "Stringa"
 #: ./content/tablepage.py:84
 msgid "Table caption"
 msgstr "Didascalia tabella"
+
+#: ./browser/templates/edit-record.pt:56
+msgid "Table row style"
+msgstr ""
 
 msgid "Text"
 msgstr "Testo"

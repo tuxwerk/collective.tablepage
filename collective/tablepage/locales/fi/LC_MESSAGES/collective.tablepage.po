@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.tablepage\n"
-"POT-Creation-Date: 2017-07-10 10:17+0000\n"
+"POT-Creation-Date: 2017-07-10 15:06+0000\n"
 "PO-Revision-Date: 2015-05-26 12:46+0200\n"
 "Last-Translator: Petri Savolainen <petri.savolainen@iki.fi>\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: Poedit 1.7.6\n"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:317
+#: ./browser/view.py:332
 msgid "${count} rows deleted"
 msgstr "${count} rivi(ä) poistettu"
 
@@ -61,19 +61,19 @@ msgstr "Lisää otsake yläpuolelle"
 msgid "Add new label above that row"
 msgstr "Lisää otsake rivin yläpuolelle"
 
-#: ./browser/templates/view-table.pt:158
+#: ./browser/templates/view-table.pt:160
 msgid "Add new row"
 msgstr "Lisää rivi"
 
-#: ./browser/templates/view-table.pt:162
+#: ./browser/templates/view-table.pt:164
 msgid "Add new row above this"
 msgstr "Lisää rivi yläpuolelle"
 
-#: ./browser/templates/view-table.pt:150
+#: ./browser/templates/view-table.pt:152
 msgid "Add new row below"
 msgstr "Lisää rivi alapuolelle"
 
-#: ./browser/templates/view-table.pt:146
+#: ./browser/templates/view-table.pt:148
 msgid "Add new row below this"
 msgstr "Lisää rivi alapuolelle"
 
@@ -161,12 +161,12 @@ msgid "Download data in CSV format"
 msgstr "Vie taulukko CSV-tiedostoksi"
 
 #: ./browser/templates/edit-label.pt:17
-#: ./browser/templates/view-table.pt:188
+#: ./browser/templates/view-table.pt:190
 msgid "Edit label"
 msgstr "Muokkaa otsaketta"
 
 #: ./browser/templates/edit-record.pt:38
-#: ./browser/templates/view-table.pt:180
+#: ./browser/templates/view-table.pt:182
 msgid "Edit row"
 msgstr "Muokkaa riviä"
 
@@ -259,11 +259,11 @@ msgstr "Siirrä jälkeen"
 msgid "Move before"
 msgstr "Siirrä ennen"
 
-#: ./browser/templates/view-table.pt:221
+#: ./browser/templates/view-table.pt:223
 msgid "Move row down"
 msgstr "Siirrä riviä alas"
 
-#: ./browser/templates/view-table.pt:213
+#: ./browser/templates/view-table.pt:215
 msgid "Move row up"
 msgstr "Siirrä riviä ylös"
 
@@ -279,7 +279,7 @@ msgstr "Uusi otsake"
 msgid "New row"
 msgstr "Uusi rivi"
 
-#: ./browser/templates/view-table.pt:235
+#: ./browser/templates/view-table.pt:237
 msgid "No rows"
 msgstr "Ei rivejä"
 
@@ -307,36 +307,36 @@ msgstr "Päivitä hakuluettelo"
 msgid "Remove"
 msgstr "Poista"
 
-#: ./browser/templates/view-table.pt:204
+#: ./browser/templates/view-table.pt:206
 msgid "Remove row"
 msgstr "Poista rivi"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:243
+#: ./browser/view.py:258
 msgid "Row added"
 msgstr "Rivi lisätty"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:235
+#: ./browser/view.py:250
 msgid "Row changed"
 msgstr "Rivi muutettu"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:313
+#: ./browser/view.py:328
 msgid "Row deleted"
 msgstr "Rivi poistettu"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:356
+#: ./browser/view.py:371
 msgid "Row has been moved"
 msgstr "Rivi siirretty"
 
-#: ./browser/view.py:106
+#: ./browser/view.py:110
 msgid "Row has been saved"
 msgstr "Rivi tallennettu"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:360
+#: ./browser/view.py:375
 msgid "Row moved"
 msgstr "Rivi siirretty"
 
@@ -394,6 +394,10 @@ msgstr "Tekstirivi"
 #: ./content/tablepage.py:84
 msgid "Table caption"
 msgstr "Taulukon otsikko"
+
+#: ./browser/templates/edit-record.pt:56
+msgid "Table row style"
+msgstr ""
 
 msgid "Text"
 msgstr "Teksti"

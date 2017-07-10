@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-07-10 10:17+0000\n"
+"POT-Creation-Date: 2017-07-10 15:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Domain: collective.tablepage\n"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:317
+#: ./browser/view.py:332
 msgid "${count} rows deleted"
 msgstr ""
 
@@ -59,19 +59,19 @@ msgstr ""
 msgid "Add new label above that row"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:158
+#: ./browser/templates/view-table.pt:160
 msgid "Add new row"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:162
+#: ./browser/templates/view-table.pt:164
 msgid "Add new row above this"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:150
+#: ./browser/templates/view-table.pt:152
 msgid "Add new row below"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:146
+#: ./browser/templates/view-table.pt:148
 msgid "Add new row below this"
 msgstr ""
 
@@ -159,12 +159,12 @@ msgid "Download data in CSV format"
 msgstr ""
 
 #: ./browser/templates/edit-label.pt:17
-#: ./browser/templates/view-table.pt:188
+#: ./browser/templates/view-table.pt:190
 msgid "Edit label"
 msgstr ""
 
 #: ./browser/templates/edit-record.pt:38
-#: ./browser/templates/view-table.pt:180
+#: ./browser/templates/view-table.pt:182
 msgid "Edit row"
 msgstr ""
 
@@ -257,11 +257,11 @@ msgstr ""
 msgid "Move before"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:221
+#: ./browser/templates/view-table.pt:223
 msgid "Move row down"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:213
+#: ./browser/templates/view-table.pt:215
 msgid "Move row up"
 msgstr ""
 
@@ -277,7 +277,7 @@ msgstr ""
 msgid "New row"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:235
+#: ./browser/templates/view-table.pt:237
 msgid "No rows"
 msgstr ""
 
@@ -305,36 +305,36 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: ./browser/templates/view-table.pt:204
+#: ./browser/templates/view-table.pt:206
 msgid "Remove row"
 msgstr ""
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:243
+#: ./browser/view.py:258
 msgid "Row added"
 msgstr ""
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:235
+#: ./browser/view.py:250
 msgid "Row changed"
 msgstr ""
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:313
+#: ./browser/view.py:328
 msgid "Row deleted"
 msgstr ""
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:356
+#: ./browser/view.py:371
 msgid "Row has been moved"
 msgstr ""
 
-#: ./browser/view.py:106
+#: ./browser/view.py:110
 msgid "Row has been saved"
 msgstr ""
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:360
+#: ./browser/view.py:375
 msgid "Row moved"
 msgstr ""
 
@@ -391,6 +391,10 @@ msgstr ""
 
 #: ./content/tablepage.py:84
 msgid "Table caption"
+msgstr ""
+
+#: ./browser/templates/edit-record.pt:56
+msgid "Table row style"
 msgstr ""
 
 msgid "Text"

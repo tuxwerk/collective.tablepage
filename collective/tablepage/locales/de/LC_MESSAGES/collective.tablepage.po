@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collective.tablepage\n"
-"POT-Creation-Date: 2017-07-10 10:17+0000\n"
+"POT-Creation-Date: 2017-07-10 15:06+0000\n"
 "PO-Revision-Date: 2017-05-29 12:46+0200\n"
 "Last-Translator: Marek Kralewski <mck@tuxwerk.de>\n"
 "Language-Team: \n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Generator: Poedit 1.7.6\n"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:317
+#: ./browser/view.py:332
 msgid "${count} rows deleted"
 msgstr "${count} Zeilen gelöscht"
 
@@ -61,19 +61,19 @@ msgstr "Eine neue Zwischenüberschrift hinzufügen"
 msgid "Add new label above that row"
 msgstr "Eine neue Zwischenüberschrift oberhalb dieser Zeile hinzufügen"
 
-#: ./browser/templates/view-table.pt:158
+#: ./browser/templates/view-table.pt:160
 msgid "Add new row"
 msgstr "Eine neue Zeile hinzufügen"
 
-#: ./browser/templates/view-table.pt:162
+#: ./browser/templates/view-table.pt:164
 msgid "Add new row above this"
 msgstr "Eine neue Zeile oberhalb hinzufügen"
 
-#: ./browser/templates/view-table.pt:150
+#: ./browser/templates/view-table.pt:152
 msgid "Add new row below"
 msgstr "Eine neue Zeile unterhalb hinzufügen"
 
-#: ./browser/templates/view-table.pt:146
+#: ./browser/templates/view-table.pt:148
 msgid "Add new row below this"
 msgstr "Eine neue Zeile unterhalb hinzufügen"
 
@@ -161,12 +161,12 @@ msgid "Download data in CSV format"
 msgstr "Daten als CSV herunterladen"
 
 #: ./browser/templates/edit-label.pt:17
-#: ./browser/templates/view-table.pt:188
+#: ./browser/templates/view-table.pt:190
 msgid "Edit label"
 msgstr "Zwischenüberschrift bearbeiten"
 
 #: ./browser/templates/edit-record.pt:38
-#: ./browser/templates/view-table.pt:180
+#: ./browser/templates/view-table.pt:182
 msgid "Edit row"
 msgstr "Zeile bearbeiten"
 
@@ -259,11 +259,11 @@ msgstr "Nach unten"
 msgid "Move before"
 msgstr "Nach oben"
 
-#: ./browser/templates/view-table.pt:221
+#: ./browser/templates/view-table.pt:223
 msgid "Move row down"
 msgstr "Nach unten verschieben"
 
-#: ./browser/templates/view-table.pt:213
+#: ./browser/templates/view-table.pt:215
 msgid "Move row up"
 msgstr "Nach oben verschieben"
 
@@ -279,7 +279,7 @@ msgstr "Neue Zwischenüberschrift"
 msgid "New row"
 msgstr "Neue Zeile"
 
-#: ./browser/templates/view-table.pt:235
+#: ./browser/templates/view-table.pt:237
 msgid "No rows"
 msgstr "Keine Zeilen"
 
@@ -307,36 +307,36 @@ msgstr "Seite aktualisieren"
 msgid "Remove"
 msgstr "Entfernen"
 
-#: ./browser/templates/view-table.pt:204
+#: ./browser/templates/view-table.pt:206
 msgid "Remove row"
 msgstr "Zeile entfernen"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:243
+#: ./browser/view.py:258
 msgid "Row added"
 msgstr "Zeile hinzugefügt"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:235
+#: ./browser/view.py:250
 msgid "Row changed"
 msgstr "Zeile geändert"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:313
+#: ./browser/view.py:328
 msgid "Row deleted"
 msgstr "Zeile gelöscht"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:356
+#: ./browser/view.py:371
 msgid "Row has been moved"
 msgstr "Zeile verschoben"
 
-#: ./browser/view.py:106
+#: ./browser/view.py:110
 msgid "Row has been saved"
 msgstr "Zeile gespeichert"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:360
+#: ./browser/view.py:375
 msgid "Row moved"
 msgstr "Zeile verschoben"
 
@@ -394,6 +394,10 @@ msgstr "Textzeile"
 #: ./content/tablepage.py:84
 msgid "Table caption"
 msgstr "Tabellen-Legende"
+
+#: ./browser/templates/edit-record.pt:56
+msgid "Table row style"
+msgstr "Tabellenzeilenstil"
 
 msgid "Text"
 msgstr "Text"
@@ -546,7 +550,9 @@ msgstr "Maximale Anzahl der auf einer Seite angezeigten Zeilen. '0' um die Anzei
 #. Default: "CSS classes to be applied to the table.\nThis list is taken from available TinyMCE style for tables."
 #: ./content/tablepage.py:99
 msgid "help_css_classes"
-msgstr "Stile, mit denen die Tabelle formatiert wird.\nDiese Liste wird aus den globalen TinyMCE Tabellenstilen erzeugt."
+msgstr ""
+"Stile, mit denen die Tabelle formatiert wird.\n"
+"Diese Liste wird aus den globalen TinyMCE Tabellenstilen erzeugt."
 
 #. Default: "Display a download link for data inside the table in CSV format"
 #: ./content/tablepage.py:150
