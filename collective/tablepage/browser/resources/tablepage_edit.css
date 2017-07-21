@@ -171,3 +171,16 @@ table.helpEdit {
 #datagridwidget-table-pageColumns tbody td.datagridwidget-cell .dataGridMultiSelectCell label {
   font-weight: normal;
 }
+
+/* Fix add new row button label */
+
+body.portaltype-tablepage #datagridwidget-add-button {
+  font-size: 0px;
+}
+body.portaltype-tablepage #datagridwidget-add-button::before {
+  content: "Add new column";
+  font-size: 12px;
+}
+body.portaltype-tablepage #datagridwidget-add-button:lang(de)::before {
+  content: "Neue Spalte hinzufügen";
+}
