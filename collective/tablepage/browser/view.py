@@ -19,10 +19,9 @@ from zope.component import getAdapter
 from zope.component import getAdapters
 from zope.component import getMultiAdapter
 from zope.component.interfaces import ComponentLookupError
-from zope.component import queryUtility
-from Products.TinyMCE.interfaces.utility import ITinyMCE
 from zope.interface import Interface
 from zope.interface import implements
+from utils import TableRowStyles
 
 try:
     from Products.CMFEditions.utilities import isObjectChanged
@@ -86,13 +85,12 @@ class EditRecordView(BrowserView):
         self.row_index = None
         self.data = {}
         self.errors = {}
-        self.tablerowstyles = {}
+        self.tablerowstyles = TableRowStyles().get(self)
 
     def __call__(self, *args, **kwargs):
         context = self.context
         request = self.request
         form = request.form
-        self.tablerowstyles = self._get_tablerowstyles()
         self.row_index = form.get('row-index', None)
         b_start = form.get('b_start', None)
         if form.get('cancel'):
@@ -119,17 +117,6 @@ class EditRecordView(BrowserView):
                 self.data = self.storage[self.row_index]
         return self.index()
 
-    def _get_tablerowstyles(self):
-        utility = queryUtility(ITinyMCE)
-        if utility:
-            translation_service = getToolByName(self, 'translation_service')
-            return [[style.split('|')[1],
-                     translation_service.utranslate(msgid=style.split('|')[0],
-                                                    domain="plone.tinymce",
-                                                    context=self)] \
-                            for style in utility.tablerowstyles.splitlines()]
-        return None
-    
     def _last_index_in_section(self, row_index):
         """Find the last row in that section"""
         storage = self.storage

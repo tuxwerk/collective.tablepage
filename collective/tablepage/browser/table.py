@@ -116,9 +116,9 @@ class TableViewView(BrowserView):
         Used. to replicate the label on new pages on batching
         """
         storage = self.storage
-        for index in range(b_start, 0, -1):
+        for index in range(b_start, -1, -1):
             if self.is_label(index):
-                return storage[index]['__label__']
+                return storage[index]
         return {}
 
     def _clean_query(self, d):
@@ -198,7 +198,10 @@ class TableViewView(BrowserView):
                 break
             
             if record.get('__label__') or getattr(record, 'is_label', False):
-                rows.append(record.get('__label__') or getattr(record, 'label'))
+                rows.append({
+                    '__label__': record.get('__label__') or getattr(record, 'label'),
+                    '__tablerowstyle__': record.get('__tablerowstyle__')
+                })
                 index += 1
                 continue
 
@@ -287,8 +290,9 @@ class TableViewView(BrowserView):
 
     def is_label(self, index):
         if self._rows:
-            return  isinstance(self._rows[index], basestring)
-        storage = self.storage
+            storage = self._rows
+        else:
+            storage = self.storage
         return '__label__' in  storage[index].keys()
 
     def next_is_label(self, row_index):
@@ -299,7 +303,7 @@ class TableViewView(BrowserView):
             storage = self.storage
         storage_size = len(storage)
         next_index = row_index + 1
-        return next_index>=storage_size or self.is_label(next_index)
+        return next_index >= storage_size or self.is_label(next_index)
 
     def css_classes(self):
         table_classes = ['tablePage',  'nosort' ]

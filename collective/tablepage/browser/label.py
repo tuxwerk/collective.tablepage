@@ -9,6 +9,7 @@ from collective.tablepage import tablepageMessageFactory as _
 from collective.tablepage.interfaces import IDataStorage
 from Products.CMFCore.utils import getToolByName
 from Products.Five.browser import BrowserView
+from utils import TableRowStyles
 
 try:
     from Products.CMFEditions.utilities import isObjectChanged
@@ -28,6 +29,7 @@ class EditLabelView(BrowserView):
         request.set('disable_border', True)
         self.configuration = self.context.getPageColumns()
         self.data = ''
+        self.tablerowstyles = TableRowStyles().get(self)
 
     def _addNewVersion(self, comment=''):
         """Content must be updated, so the history machinery will save a new version"""
@@ -54,6 +56,7 @@ class EditLabelView(BrowserView):
             # adding new but not in the last line
             index = form.get('row-index')
             self.storage.add({'__label__': label,
+                              '__tablerowstyle__': form.get('__tablerowstyle__'),
                               '__uuid__': str(uuid.uuid4())}, index)
             self._addNewVersion(_(msgid="Label added",
                                   domain="collective.tablepage",
@@ -61,12 +64,14 @@ class EditLabelView(BrowserView):
         elif form.get('row-index') is not None:
             # updating label
             index = form.get('row-index')
-            self.storage.update(index, {'__label__': label})
+            self.storage.update(index, {'__label__': label,
+                                        '__tablerowstyle__': form.get('__tablerowstyle__')})
             self._addNewVersion(_(msgid="Label changed",
                                   domain="collective.tablepage",
                                   context=context))
         else:
             self.storage.add({'__label__': label,
+                              '__tablerowstyle__': form.get('__tablerowstyle__'),
                               '__uuid__': str(uuid.uuid4())})
             self._addNewVersion(_(msgid="Label added",
                                   domain="collective.tablepage",
@@ -95,5 +100,6 @@ class EditLabelView(BrowserView):
                                                                   b_start and '?b_start:int=%d' % b_start or ''))
         elif form.get('row-index') is not None and not form.get('addLabel'):
             # load an existing row
-            self.data = self.storage[form.get('row-index')].get('__label__', '')
+            self.data = self.storage[form.get('row-index')]
         return self.index()
+
