@@ -40,11 +40,11 @@ class LabelTestCase(unittest.TestCase):
             tp()
         except Exception:
             self.fail("Table view raised an unexpected error!")
-        view = getMultiAdapter((tp, request), name=u'multiple-tables-view')
-        try:
-            view()
-        except Exception:
-            self.fail("Multiple tables view raised an unexpected error!")
+        #view = getMultiAdapter((tp, request), name=u'multiple-tables-view')
+        #try:
+        #    view()
+        #except Exception:
+        #    self.fail("Multiple tables view raised an unexpected error!")
         view = getMultiAdapter((tp, request), name=u'tablepage-edit')
         try:
             view()

@@ -116,6 +116,8 @@ class TableViewView(BrowserView):
         Used. to replicate the label on new pages on batching
         """
         storage = self.storage
+        if len(storage) == 0:
+            return {}
         for index in range(b_start, -1, -1):
             if self.is_label(index):
                 return storage[index]
@@ -293,6 +295,8 @@ class TableViewView(BrowserView):
             storage = self._rows
         else:
             storage = self.storage
+        if not storage[index]:
+            return False
         return '__label__' in  storage[index].keys()
 
     def next_is_label(self, row_index):

@@ -28,7 +28,7 @@ class EditLabelView(BrowserView):
         self.request = request
         request.set('disable_border', True)
         self.configuration = self.context.getPageColumns()
-        self.data = ''
+        self.data = {}
         self.tablerowstyles = TableRowStyles().get(self)
 
     def _addNewVersion(self, comment=''):

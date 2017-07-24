@@ -42,6 +42,7 @@ class BatchingTestCase(unittest.TestCase):
         self._addRows(35)
         output = tp()
         self.assertTrue('(Row data 1)' in output)
+        self.assertTrue('(Row data 10)' in output)
         self.assertTrue('(Row data 11)' not in output)
 
     def test_batching_page2(self):
@@ -50,8 +51,10 @@ class BatchingTestCase(unittest.TestCase):
         request = self.layer['request']
         request.form['b_start'] = 10
         output = tp()
-        self.assertTrue('(Row data 1)' not in output)
+        self.assertTrue('(Row data 10)' not in output)
         self.assertTrue('(Row data 11)' in output)
+        self.assertTrue('(Row data 20)' in output)
+        self.assertTrue('(Row data 21)' not in output)
 
     def test_batching_label_at_first_page(self):
         tp = self.tp
