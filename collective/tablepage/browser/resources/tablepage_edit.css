@@ -175,7 +175,7 @@ table.helpEdit {
 /* Fix add new row button label */
 
 body.portaltype-tablepage #datagridwidget-add-button {
-  font-size: 0px;
+  font-size: 0px !important;
 }
 body.portaltype-tablepage #datagridwidget-add-button::before {
   content: "Add new column";
