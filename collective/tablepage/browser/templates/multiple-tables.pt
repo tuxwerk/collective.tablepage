@@ -46,36 +46,36 @@
                 <h2 tal:condition="context/getTableCaption"
                     tal:content="context/getTableCaption">This table is for...</h2>
                 
-                <tal:rows tal:repeat="row rows">
-                <tal:row define="single_table row/cols|row">
-
+                <tal:rows repeat="row rows">
+		  <tal:row define="tablerowstyle python:row['__tablerowstyle__'] or ' '">
+		    
                     <h3 class="multiTablePageRowHeader"
-                         tal:condition="python:view.is_label(single_table)"
-                         tal:content="python:view.is_label(single_table)">
-                        Section Foo
+			tal:attributes="class string:multiTablePageRowHeader ${tablerowstyle}"
+                        tal:condition="python:view.is_label(row)"
+                        tal:content="python:view.is_label(row)">
+                      Section Foo
                     </h3>
                     
                     <table class="multiTablePageRowData"
-                           tal:attributes="class python:'multiTablePageRowData ' + ' '.join(context.getCssClasses());"
-                           tal:condition="python:not view.is_label(single_table)">
+                           tal:attributes="class python:'multiTablePageRowData ' + tablerowstyle + ' ' + ' '.join(context.getCssClasses());"
+                           tal:condition="python:not view.is_label(row)">
                     
-                        <tal:sub-table-rows repeat="data single_table">
+                        <tal:sub-table-rows repeat="data row/cols">
                         <tr tal:define="col_index repeat/data/index">
-                            <th scope="row" class="nosort"
-                                tal:define="header python:view.getHeader(col_index)"
-								tal:attributes="class string:nosort ${header/classes}">
-                                    <span tal:replace="header/label" />
-                                    <div class="discreet" tal:content="header/description">This is for...</div>
-                                </th>
-                            <td class=""
-                                tal:attributes="class data/classes"
-                                tal:content="structure data/content">aaa</td>
+                          <th scope="row" class="nosort"
+                              tal:define="header python:view.getHeader(col_index)"
+			      tal:attributes="class string:nosort ${header/classes}">
+                            <span tal:replace="header/label" />
+                            <div class="discreet" tal:content="header/description">This is for...</div>
+                          </th>
+			  <td class=""
+                              tal:attributes="class data/classes"
+                              tal:content="structure data/content">Content</td>
                         </tr>
                         </tal:sub-table-rows>
                     
                     </table>
-                
-                </tal:row>
+                  </tal:row>
                 </tal:rows>
 
                 <tal:download_enabled tal:condition="python:rows and context.getDownloadEnabled()">
