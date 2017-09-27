@@ -1,6 +1,35 @@
 /**
  * JavaScript integration for TablePage
  */
+
+function showVocabulary(elem) {
+  var selected_id = elem.attr('id');
+  var selected_value = elem.val();
+  var vocabulary_id = '#vocabulary' + selected_id.substring(4);
+  var shown = ['Select', 'Computed'];
+  if (shown.indexOf(selected_value) > -1) {
+    $(vocabulary_id).css('display', 'inline');
+  } else {
+    $(vocabulary_id).css('display', 'none');
+  }
+}
+
+(function($) {
+  $(document).ready(function() {
+    // show vocabulary field only when needed
+    $('#datagridwidget-table-pageColumns tbody').bind('DOMSubtreeModified', function() {
+      $("#datagridwidget-table-pageColumns tbody select[name='pageColumns.type:records']").each(function() {
+	if ($(this).attr('id') == 'type_pageColumns_new')
+	  return true;
+	showVocabulary($(this));
+      });
+      $("#datagridwidget-table-pageColumns tbody select[name='pageColumns.type:records']").unbind().change(function() {
+	showVocabulary($(this));
+      });
+    });
+  });
+})(jQuery);
+
 (function($){
     $(document).ready(function() {
         var dataTable = null,
