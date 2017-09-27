@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-07-10 15:54+0000\n"
+"POT-Creation-Date: 2017-09-27 09:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: Luca Fabbri <keul@redturtle.it>\n"
 "Language-Team: RedTurtle Technology <sviluppoplone@redturtle.it>\n"
@@ -16,19 +16,19 @@ msgstr ""
 "X-Is-Fallback-For: it-ch it-it\n"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:332
+#: ./browser/view.py:319
 msgid "${count} rows deleted"
 msgstr "${count} righe eliminate"
 
-#: ./content/tablepage.py:357
+#: ./content/tablepage.py:359
 msgid "... always display"
 msgstr "... mostra sempre"
 
-#: ./content/tablepage.py:355
+#: ./content/tablepage.py:357
 msgid "... only on page view"
 msgstr "... solo nella vista della pagina"
 
-#: ./content/tablepage.py:356
+#: ./content/tablepage.py:358
 msgid "... only when editing table"
 msgstr "... solo in modifica della tabella"
 
@@ -60,35 +60,35 @@ msgstr "Aggiungi nuova etichetta sopra"
 msgid "Add new label above that row"
 msgstr "Aggiungi una nuova etichetta sopra questa riga"
 
-#: ./browser/templates/view-table.pt:160
+#: ./browser/templates/view-table.pt:161
 msgid "Add new row"
 msgstr "Aggiungi una nuova riga"
 
-#: ./browser/templates/view-table.pt:164
+#: ./browser/templates/view-table.pt:165
 msgid "Add new row above this"
 msgstr "Aggiunga nuova riga sopra"
 
-#: ./browser/templates/view-table.pt:152
+#: ./browser/templates/view-table.pt:153
 msgid "Add new row below"
 msgstr "Aggiunga nuova riga sotto"
 
-#: ./browser/templates/view-table.pt:148
+#: ./browser/templates/view-table.pt:149
 msgid "Add new row below this"
 msgstr "Aggiungi una nuova riga sotto questa"
 
-#: ./content/tablepage.py:72
+#: ./content/tablepage.py:74
 msgid "Additional features"
 msgstr "Funzionalità aggiuntive"
 
-#: ./content/tablepage.py:364
+#: ./content/tablepage.py:366
 msgid "At the beginning"
 msgstr "All'inizio"
 
-#: ./content/tablepage.py:363
+#: ./content/tablepage.py:365
 msgid "At the end"
 msgstr "Alla fine"
 
-#: ./content/tablepage.py:132
+#: ./content/tablepage.py:134
 msgid "Attachment storage"
 msgstr "Contenitore allegati"
 
@@ -96,19 +96,19 @@ msgstr "Contenitore allegati"
 msgid "Back to table editing"
 msgstr "Torna alla modifica della tabella"
 
-#: ./content/tablepage.py:98
+#: ./content/tablepage.py:100
 msgid "CSS classes"
 msgstr ""
 
-#: ./content/tablepage.py:224
+#: ./content/tablepage.py:226
 msgid "Column"
 msgstr "Colonna"
 
-#: ./content/tablepage.py:66
+#: ./content/tablepage.py:68
 msgid "Column configuration"
 msgstr "Configurazione colonna"
 
-#: ./content/tablepage.py:61
+#: ./content/tablepage.py:63
 msgid "Column description"
 msgstr "Descrizione colonna"
 
@@ -116,7 +116,7 @@ msgstr "Descrizione colonna"
 msgid "Column id"
 msgstr "Id colonna"
 
-#: ./content/tablepage.py:60
+#: ./content/tablepage.py:62
 msgid "Column label"
 msgstr "Etichetta colonna"
 
@@ -127,7 +127,7 @@ msgstr "Colonne"
 msgid "Computed"
 msgstr "Calcolato"
 
-#: ./content/tablepage.py:174
+#: ./content/tablepage.py:176
 msgid "Criteria for adding new rows"
 msgstr "Criterio di inserimento nuove righe"
 
@@ -160,12 +160,12 @@ msgid "Download data in CSV format"
 msgstr "Scarica i dati in formato CSV"
 
 #: ./browser/templates/edit-label.pt:17
-#: ./browser/templates/view-table.pt:190
+#: ./browser/templates/view-table.pt:191
 msgid "Edit label"
 msgstr "Modifica etichetta"
 
 #: ./browser/templates/edit-record.pt:38
-#: ./browser/templates/view-table.pt:182
+#: ./browser/templates/view-table.pt:183
 msgid "Edit row"
 msgstr "Modifica riga"
 
@@ -206,25 +206,25 @@ msgstr ""
 msgid "Internal link"
 msgstr "Collegamento interno"
 
-#: ./browser/templates/edit-label.pt:37
+#: ./browser/templates/edit-label.pt:51
 msgid "Label"
 msgstr "Etichetta"
 
 #. Default: "collective.tablepage"
-#: ./browser/label.py:58
+#: ./browser/label.py:61
 msgid "Label added"
 msgstr "Etichetta aggiunta"
 
 #. Default: "collective.tablepage"
-#: ./browser/label.py:65
+#: ./browser/label.py:69
 msgid "Label changed"
 msgstr "Etichetta modificata"
 
-#: ./browser/label.py:93
+#: ./browser/label.py:98
 msgid "Label has been saved"
 msgstr "L'etichetta è stata salvata"
 
-#: ./browser/label.py:88
+#: ./browser/label.py:93
 msgid "Label is required"
 msgstr "L'etichetta è richiesta"
 
@@ -235,7 +235,7 @@ msgstr "Collegamento"
 msgid "Look for duplicated record"
 msgstr "Cerca record duplicati"
 
-#: ./content/tablepage.py:188
+#: ./content/tablepage.py:190
 msgid "Max number of rows"
 msgstr "Massimo numero di righe"
 
@@ -258,11 +258,11 @@ msgstr "Muovi dopo"
 msgid "Move before"
 msgstr "Muovi prima"
 
-#: ./browser/templates/view-table.pt:223
+#: ./browser/templates/view-table.pt:224
 msgid "Move row down"
 msgstr "Muovi riga giù"
 
-#: ./browser/templates/view-table.pt:215
+#: ./browser/templates/view-table.pt:216
 msgid "Move row up"
 msgstr "Muovi riga su"
 
@@ -278,7 +278,7 @@ msgstr "Nuova etichetta"
 msgid "New row"
 msgstr "Nuova riga"
 
-#: ./browser/templates/view-table.pt:237
+#: ./browser/templates/view-table.pt:238
 msgid "No rows"
 msgstr "Nessuna riga"
 
@@ -294,10 +294,6 @@ msgstr "Pagina con Tabella"
 msgid "Please enter a number in a proper format, for example: 1234.56"
 msgstr "Prego, inserisci un numero in un formato adatto, per esempio: 1234.56"
 
-#: ./browser/templates/edit-label.pt:34
-msgid "Provide label"
-msgstr "Fornisci un'etichetta"
-
 #: ./browser/templates/view-table.pt:95
 msgid "Refresh catalog"
 msgstr "Aggiorna catalogo"
@@ -306,36 +302,36 @@ msgstr "Aggiorna catalogo"
 msgid "Remove"
 msgstr "Rimuovi"
 
-#: ./browser/templates/view-table.pt:206
+#: ./browser/templates/view-table.pt:207
 msgid "Remove row"
 msgstr "Elimina riga"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:258
+#: ./browser/view.py:245
 msgid "Row added"
 msgstr "Riga aggiunta"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:250
+#: ./browser/view.py:237
 msgid "Row changed"
 msgstr "Riga cambiata"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:328
+#: ./browser/view.py:315
 msgid "Row deleted"
 msgstr "Riga eliminata"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:371
+#: ./browser/view.py:358
 msgid "Row has been moved"
 msgstr "La riga è stata spostata"
 
-#: ./browser/view.py:110
+#: ./browser/view.py:108
 msgid "Row has been saved"
 msgstr "La riga è stata salvata"
 
 #. Default: "collective.tablepage"
-#: ./browser/view.py:375
+#: ./browser/view.py:362
 msgid "Row moved"
 msgstr "Riga mossa"
 
@@ -343,7 +339,7 @@ msgstr "Riga mossa"
 msgid "Seach in table"
 msgstr "Cerca nella tabella"
 
-#: ./content/tablepage.py:216
+#: ./content/tablepage.py:218
 msgid "Search configuration"
 msgstr "Configurazioni della ricerca"
 
@@ -367,11 +363,11 @@ msgstr "Seleziona documenti esistenti"
 msgid "Select/unselect all"
 msgstr "Seleziona/deseleziona tutti"
 
-#: ./content/tablepage.py:149
+#: ./content/tablepage.py:151
 msgid "Show download link for data"
 msgstr "Mostra link per scaricati i dati"
 
-#: ./content/tablepage.py:162
+#: ./content/tablepage.py:164
 msgid "Show headers"
 msgstr "Mostra intestazioni"
 
@@ -379,7 +375,7 @@ msgstr "Mostra intestazioni"
 msgid "Show stored data in multiple tables"
 msgstr "Mostra i dati salvati usando varie tabelle"
 
-#: ./content/tablepage.py:163
+#: ./content/tablepage.py:165
 msgid "Show table headers when..."
 msgstr "Mostra le intestazioni della tabella quando..."
 
@@ -390,10 +386,11 @@ msgstr "Ricerca singolo valore"
 msgid "String"
 msgstr "Stringa"
 
-#: ./content/tablepage.py:84
+#: ./content/tablepage.py:86
 msgid "Table caption"
 msgstr "Didascalia tabella"
 
+#: ./browser/templates/edit-label.pt:35
 #: ./browser/templates/edit-record.pt:56
 msgid "Table row style"
 msgstr ""
@@ -409,7 +406,7 @@ msgstr "Questo aggiornerà la cache di tutte le righe e i dati salvati nel catal
 msgid "To"
 msgstr "Al"
 
-#: ./content/tablepage.py:62
+#: ./content/tablepage.py:64
 msgid "Type of data"
 msgstr "Tipo di dato"
 
@@ -451,7 +448,7 @@ msgid "Validate data"
 msgstr "Valida i dati"
 
 #. Default: "Select the folder where users will be able to store attachments for attachment-like columns (if any).\nUsers must be able to add new contents on that folder; if not, they will be only able to select existings items.\nIf not provided, the folder containing this document will be used."
-#: ./content/tablepage.py:133
+#: ./content/tablepage.py:135
 msgid "attachmentStorage_help"
 msgstr ""
 "Seleziona la cartella dove gli utenti potranno caricare allegati per le colonne di tipo simil-allegato (se ve ne sono).\n"
@@ -553,7 +550,7 @@ msgid "error_row_count_dont_match"
 msgstr "Salto la riga $line. Trovate $lrow colonne invece di $lheaders"
 
 #. Default: "Insert the maximum number of rows to be displayed in a single page.\nWhen this limit is reached a batching navigation section will be displayed.\nUse 0 to disable batching (NOT suggested on very large tables or extremly complex column types)."
-#: ./content/tablepage.py:189
+#: ./content/tablepage.py:191
 msgid "help_batchSize"
 msgstr ""
 "Inserire il massimo numero di righe da visualizzare per una singola pagina.\n"
@@ -561,12 +558,12 @@ msgstr ""
 "Usa 0 per disabilitare la paginazione (NON consigliato per tabelle molto grandi o in presenza di colonne molto complesse)."
 
 #. Default: "CSS classes to be applied to the table.\nThis list is taken from available TinyMCE style for tables."
-#: ./content/tablepage.py:99
+#: ./content/tablepage.py:101
 msgid "help_css_classes"
 msgstr ""
 
 #. Default: "Display a download link for data inside the table in CSV format"
-#: ./content/tablepage.py:150
+#: ./content/tablepage.py:152
 msgid "help_download_enabled"
 msgstr "Mostra un link per scaricare i dati contenuti nella tabella in formato CSV"
 
@@ -576,7 +573,7 @@ msgid "help_external_link"
 msgstr "Fornisci un link ad una risorsa conosciuta. Questa verrà ignorata se userai il \"Link interno\" qui sotto"
 
 #. Default: "Criteria of inserting new row.\nChoose if add row at the end of group (append) or before group (prepend)."
-#: ./content/tablepage.py:175
+#: ./content/tablepage.py:177
 msgid "help_insertType"
 msgstr ""
 "Criterio di inserimento nuova riga.\n"
@@ -604,7 +601,7 @@ msgid "help_pageColumns"
 msgstr "Definizione delle righe dentro alla tabella"
 
 #. Default: "Provide configuration for the search in table.\nPlease note that this section will not load live data from the \"Columns\" field. If you changed something in the columns configuration during this edit attempt you MUST save first and came back here again."
-#: ./content/tablepage.py:217
+#: ./content/tablepage.py:219
 msgid "help_searchConfig"
 msgstr ""
 "Fornisce le configurazioni per la ricerca nella tabella.\n"
@@ -612,19 +609,19 @@ msgstr ""
 "Se è stato modificato qualcosa nelle configurazioni della colonna durante questa sessione di salvataggio DOVRETE salvare per poi tornare qui in seguito."
 
 #. Default: "A description to be used in search form"
-#: ./content/tablepage.py:237
+#: ./content/tablepage.py:239
 msgid "help_searchConfig_description"
 msgstr "Una descrizione da usare nel form di ricerca"
 
 #. Default: "The column on which you want to activate the search.\nOrder matters."
-#: ./content/tablepage.py:225
+#: ./content/tablepage.py:227
 msgid "help_searchConfig_id"
 msgstr ""
 "La colonna su cui vuoi attivare la ricerca.\n"
 "L'ordine conta."
 
 #. Default: "The label to be used in the search form. Default is the column original label."
-#: ./content/tablepage.py:232
+#: ./content/tablepage.py:234
 msgid "help_searchConfig_label"
 msgstr "L'etichetta da usare nel form di ricerca. Il valore predefinito è preso dall'etichetta della colonna."
 
@@ -649,7 +646,7 @@ msgid "help_select_multiple_files_possibile_selection"
 msgstr "Altri file disponibili"
 
 #. Default: "Optional summary of table contents"
-#: ./content/tablepage.py:85
+#: ./content/tablepage.py:87
 msgid "help_table_caption"
 msgstr "Sommario opzionale dei contenuti della tabella"
 
@@ -658,13 +655,18 @@ msgstr "Sommario opzionale dei contenuti della tabella"
 msgid "help_validate"
 msgstr "Esegui le validazioni delle colonne (se presenti) all'importazione: i dati invalidi saranno scartati mentre l'assenza di campi obbligatori farà scartare l'intero record."
 
+#. Default: "The ID is an unique field and is not visible."
+#: ./content/tablepage.py:60
+msgid "id_column_description"
+msgstr ""
+
 #. Default: "Provide a descriptive scope for that table section"
 #: ./browser/templates/edit-label.pt:22
 msgid "label_form_help"
 msgstr "Fornisci una descrizione per questa sezione della tabella"
 
 #. Default: "Text after the table"
-#: ./content/tablepage.py:123
+#: ./content/tablepage.py:125
 msgid "label_text_after"
 msgstr "Testo dopo la tabella"
 
@@ -685,23 +687,23 @@ msgid "no_attachment_storage_access"
 msgstr "Sembra che tu non abbia i permessi per accedere al repositori dei file. Non puoi caricare nessun file dalla cartella configurata."
 
 #. Default: "Other options you can activate on the column"
-#: ./content/tablepage.py:73
+#: ./content/tablepage.py:75
 msgid "options_column_description"
 msgstr "Altre opzioni che puoi attivare sulla colonna"
 
 #. Default: "ID \"${col_name}\" is duplicated"
-#: ./content/tablepage.py:321
+#: ./content/tablepage.py:323
 msgid "pagecolumn_validation_error_duplicated_id"
 msgstr "L'id \"${col_name}\" è duplicato"
 
 #. Default: "Invalid value: \"${col_name}\". \"ID\" must not contain special characters"
-#: ./content/tablepage.py:327
+#: ./content/tablepage.py:329
 #, fuzzy
 msgid "pagecolumn_validation_error_id_format"
 msgstr "Valore non valido: \"${col_name}\". \"Id Colonna\" non deve contenere caratteri speciali"
 
 #. Default: "Invalid value: \"${col_name}\". A reserved value has been used for \"ID\""
-#: ./content/tablepage.py:331
+#: ./content/tablepage.py:333
 msgid "pagecolumn_validation_error_id_invalid"
 msgstr "Valore non valido: \"${col_name}\". Una valore riservato è stato utilizzato per \"ID\""
 
@@ -721,12 +723,12 @@ msgid "row_options_unique"
 msgstr "Unico"
 
 #. Default: "Other options you can activate on the search"
-#: ./content/tablepage.py:240
+#: ./content/tablepage.py:242
 msgid "search_additional_configuration"
 msgstr "Altre opzioni che puoi attivare sulla ricerca"
 
 #. Default: "The column \"${col_name}\" has already been used"
-#: ./content/tablepage.py:305
+#: ./content/tablepage.py:307
 msgid "searchconfig_validation_error_duplicated_id"
 msgstr "La colonna \"${col_name}\" è già stata usata"
 
@@ -736,7 +738,7 @@ msgid "thousand_separator"
 msgstr "."
 
 #. Default: "Some columns types will need this.\nFor \"Select\" type: used for defining the vocabulary (one item on per row).\nFor \"Computed\" type: write there the TALES expression."
-#: ./content/tablepage.py:67
+#: ./content/tablepage.py:69
 msgid "vocabulary_column_description"
 msgstr ""
 "Utilizzato da alcuni tipi di colonne.\n"

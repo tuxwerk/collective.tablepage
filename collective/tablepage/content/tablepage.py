@@ -56,7 +56,9 @@ TablePageSchema = ATDocumentSchema.copy() + atapi.Schema((
             visible={'view': 'invisible', 'edit': 'visible'},
             helper_js= ('datagridwidget.js', 'datagridwidget_patches.js', 'datagridmultiselect.js'),
             columns={
-                 'id' : Column(_(u"Column id"), required=True),
+                 'id' : Column(_(u"Column id"), required=True,
+                               col_description=_("id_column_description",
+                                                   default=u"The ID is an unique field and is not visible for users.")),
                  'label' : Column(_(u"Column label"), required=True),
                  'description' : TextAreaColumn(_(u"Column description")),
                  'type' : SelectColumn(_(u"Type of data"),
